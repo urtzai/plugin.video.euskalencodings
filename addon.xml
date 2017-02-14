@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.torretxea" name="Torretxea" version="1.0.0" provider-name="Urtzi Odriozola Lizaso">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="plugin.video.yatp" version="2.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="eu">Plugin to watch basque series from Torretxea</summary>
+    <description lang="eu">Plugin to watch basque series from Torretxea</description>
+    <summary lang="en">Plugin to watch basque series from Torretxea</summary>
+    <description lang="en">Plugin to watch basque series from Torretxea</description>
+    <summary lang="es">Plugin to watch basque series from Torretxea</summary>
+    <description lang="es">Plugin to watch basque series from Torretxea</description>
+    <language>eu</language>
+    <platform>all</platform>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 3</license>
+    <website>http://github.com/urtzai/plugin.video.torretxea</website>
+    <email>urtzi.odriozola@gmail.com</email>
+    <source>http://github.com/urtzai/plugin.video.torretxea</source>
+    <assets>
+        <icon>resources/torretxea_icon.png</icon>
+        <fanart>resources/fanart.jpg</fanart>
+        <screenshot>resources/screenshot-01.jpg</screenshot>
+        <screenshot>resources/screenshot-02.jpg</screenshot>
+    </assets>
+  </extension>
+</addon>
