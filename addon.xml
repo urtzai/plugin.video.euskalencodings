@@ -2,11 +2,12 @@
 <addon id="plugin.video.torretxea" name="Torretxea" version="1.0.0" provider-name="Urtzi Odriozola Lizaso">
   <requires>
     <import addon="xbmc.python" version="2.24.0"/>
-    <import addon="plugin.video.yatp" version="2.0.0"/>
+    <import addon="plugin.video.yatp" version="3.3.0"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="addon.py">
     <provides>video</provides>
   </extension>
+  <extension point="plugin.video.yatp" library="libs" />
   <extension point="xbmc.addon.metadata">
     <summary lang="eu">Plugin to watch basque series from Torretxea</summary>
     <description lang="eu">Plugin to watch basque series from Torretxea</description>

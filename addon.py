@@ -39,6 +39,12 @@ def router(paramstring):
                     vh.list_quality(params['path'])
                 elif params['action'] == 'qualitylisting':
                     # Display the list of videos in a provided category.
+                    if params['type'] == 'FILMS':
+                        vh.list_torrent(params['path'])
+                    else:
+                        vh.list_season(params['path'])
+                elif params['action'] == 'seasonlisting':
+                    # Display the list of videos in a provided category.
                     vh.list_torrent(params['path'])
     else:
         # If the plugin is called from Kodi UI without any parameters,

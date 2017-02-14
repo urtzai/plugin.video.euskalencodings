@@ -11,13 +11,3 @@ def get_categories():
 def get_contents(url):
     data = requests.get(url)
     return data.json()
-
-
-def get_qualities(url):
-    data = requests.get(url)
-    return data.json()
-
-
-def get_torrents(url):
-    data = requests.get(url)
-    return data.json()
